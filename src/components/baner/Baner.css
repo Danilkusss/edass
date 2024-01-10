@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(12, 12, 12);
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (width < 585px) {
+    .container{
+        padding: 0 10px 0 10px;
+
+    }
+    
+    .banner img{
+        height: 200px;
+        object-fit: contain;
+    }
+}

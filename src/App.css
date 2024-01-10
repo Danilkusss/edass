@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+}
+.menu-titile{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
+    padding: 90px 0 60px 0;
+}
+.category{
+    position: relative;
+    font-size: 14px;
+    color: grey;
+    top: 5px;
+}
+.product{
+    max-width: 1200px;
+    margin: 0 auto;
+}
